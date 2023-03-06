@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const multer = require("multer");
 const port = 8000;
-const ImageModel = require("./images-models");
+const ImageModel = require("../images-models");
 
 
 app.use(bodyParser.json());
